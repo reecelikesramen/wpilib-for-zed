@@ -1,0 +1,34 @@
+{
+  "lsp": {
+    "jdtls": {
+      "settings": {
+        "classpath": "~/wpilib/2025/maven/edu/wpi/first/**/*.jar",
+        "java.configuration.runtimes": [
+          {
+            "name": "JavaSE-17",
+            "path": "~/wpilib/2025/jdk"
+          }
+        ],
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "java.gradle.enabled": "true",
+        "java.gradle.downloadSources": "true",
+        "java.sources.organizeImports.starThreshold": 999,
+        "java.sources.organizeImports.staticStarThreshold": 999
+      },
+      "initialization_options": {
+        "settings.java": {
+          "project": {
+            "sourcePaths": ["src/main/java"],
+            "referencedLibraries": [
+              "~/wpilib/2025/maven/edu/wpi/first/**/*.jar"
+            ]
+          }
+        },
+        "extendedClientCapabilities": {
+          "classFileContentsSupport": true,
+          "resolveAdditionalTextEditsSupport": true
+        }
+      }
+    }
+  }
+}

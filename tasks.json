@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Build Robot Code",
+    "command": "./gradlew",
+    "args": ["build"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Build Clean Robot Code",
+    "command": "./gradlew",
+    "args": ["clean", "build"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Simulate Robot Code",
+    "command": "./gradlew",
+    "args": ["simulateJava"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Deploy Robot Code",
+    "command": "./gradlew",
+    "args": ["deploy"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]
